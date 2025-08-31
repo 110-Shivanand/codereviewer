@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #191970;
+
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 0px;
+  padding: 20px;
+}
+
+.writingarea {
+  display: flex;
+  flex-direction: column;
+  border: none;
+}
+
+textarea {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+  padding: 12px;
+  width: 700px;
+  height: 600px;
+  resize: vertical;
+  border: none;
+  outline: none;
+  border-top-left-radius: 0.3rem;
+  border-top-right-radius: 0.3rem;
+}
+
+button {
+  background-color: green;
+  color: white;
+  height: 40px;
+  width: 120px;
+  cursor: pointer;
+  border-radius: 0.3rem;
+  border: none;
+  outline: none;
+  margin-left: 580px; /* aligns to right inside 800px area */
+}
+
+.btn {
+  background-color: #1e1e1e;
+  width: 700px;
+  border: none;
+  margin: 0;
+  padding: 0;
+  border-bottom-left-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+}
+
+.showarea pre {
+  width: 800px;
+  height: 640px;
+  font-size: 16px;
+  padding: 10px;
+  background-color: #36454F;
+  border: none;
+  outline: none;
+  color: #f8f8f8;
+  border-radius: 0.3rem;
+  overflow: auto;
+}
+.showarea pre {
+  max-height: 640px;         /* Limit height */
+  overflow-y: auto;          /* Enables vertical scroll */
+  overflow-x: auto;          /* Enables horizontal scroll if needed */
+  background-color: #36454F; /* Optional: code background */
+  padding: 10px;
+  color: #f8f8f8;
+  font-family: monospace;
+  font-size: 16px;
+  border-radius: 0.3rem;
+  white-space: pre-wrap;     /* Wrap long lines */
+}
+
+code{
+    background-color: #36454F; /* Optional: code background */
+
+}
