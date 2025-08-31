@@ -30,8 +30,8 @@ ${code}
         max_tokens: 1500
       },
       {
-        headers: {
-          'Authorization':`Bearer ${process.env.GROQ_API_KEY}`,
+        headers: { // uncomment the below line to get api services
+        //  'Authorization':`Bearer ${process.env.GROQ_API_KEY}`,
           'Content-Type': 'application/json'
         }
       }
